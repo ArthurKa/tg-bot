@@ -2,7 +2,7 @@
   "name": "@arthurka/tg-bot",
   "version": "1.0.0",
   "main": "build/index.js",
-  "types":"build/index.d.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "build:clean": "rm -rf build/*",
     "ts-compile": "tsc --declaration",
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArthurKa/mongodb.git"
+    "url": "git+https://github.com/ArthurKa/tg-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/ArthurKa/mongodb/issues"
+    "url": "https://github.com/ArthurKa/tg-bot/issues"
   },
-  "homepage": "https://github.com/ArthurKa/mongodb#readme"
+  "homepage": "https://github.com/ArthurKa/tg-bot#readme"
 }
