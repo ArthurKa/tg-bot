@@ -14,12 +14,12 @@
     "automate-deploy-copy-to-shell": "g bcp && npm run build && mkdir -p ./build/build; cp ./src/modules.d.ts ./build; mv ./build/* ./build/build; cp ./package* README.md ./build; npm run pu && g p && g pt"
   },
   "dependencies": {
+    "@types/node-telegram-bot-api": "^0.51.4",
     "node-telegram-bot-api": "^0.54.0"
   },
   "devDependencies": {
     "@arthurka/eslint": "^1.30.0",
     "@types/node": "^16.9.3",
-    "@types/node-telegram-bot-api": "^0.51.4",
     "typescript": "^4.4.3"
   },
   "license": "ISC",
