@@ -1,7 +1,7 @@
 process.env.NTBA_FIX_319 = '1';
 process.env.NTBA_FIX_350 = '1';
 
-import TelegramBot from 'node-telegram-bot-api';
+import TelegramBot = require('node-telegram-bot-api');
 
 export default TelegramBot;
 
